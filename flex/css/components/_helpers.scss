@@ -1,0 +1,11 @@
+@mixin call-back($border_color, $text_color) {
+	width: 170px;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	border-radius: 40px;
+	font-size: 0.875rem;
+	color: $text_color;
+	border: 2px solid $border_color;
+}

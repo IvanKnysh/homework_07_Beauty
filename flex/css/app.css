@@ -65,8 +65,11 @@ body {
   width: 170px;
   height: 40px;
   text-align: center;
+  text-decoration: none;
   line-height: 40px;
   border-radius: 40px;
+  font-size: 0.875rem;
+  color: #000;
   border: 2px solid #f13c6e;
 }
 .header .header-bottom-menu {
@@ -82,4 +85,37 @@ body {
   display: block;
   text-decoration: none;
   color: #000;
+}
+
+.banner-section {
+  background: url("../images/banner-section-bg.jpg") center/cover;
+}
+.banner-section .flx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 604px;
+  color: #fff;
+}
+.banner-section .flx h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+.banner-section .flx p {
+  font-size: 0.875rem;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.banner-section .flx a {
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  border-radius: 40px;
+  font-size: 0.875rem;
+  color: #fff;
+  border: 2px solid #fff;
+  letter-spacing: 0.7px;
 }/*# sourceMappingURL=app.css.map */
