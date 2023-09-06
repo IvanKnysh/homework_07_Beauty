@@ -1,0 +1,40 @@
+.cards-section {
+	background-color: $primary;
+	padding: 80px 0;
+	h2 {
+		font-size: 1.5rem;
+		color: $dark;
+		font-weight: 700;
+		margin-bottom: 38px;
+	}
+	.flx {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+		.card {
+			width: calc((100% / 4) - 22.5px);
+			background-color: $light;
+			padding: 25px;
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+			h5 {
+				font-size: 0.875rem;
+				text-align: center;
+				line-height: 19px;
+				font-weight: 400;
+				margin: 20px 0;
+			}
+			.price {
+				text-align: center;
+				font-weight: 500;
+				font-size: 1.313rem;
+				margin-bottom: 20px;
+			}
+			a {
+				@include buy;
+			}
+		}
+	}
+}
