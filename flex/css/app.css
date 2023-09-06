@@ -231,4 +231,21 @@ body {
   display: block;
   height: 35px;
   line-height: 35px;
+}
+
+.logos-section {
+  background-color: #efefef;
+}
+.logos-section .flx {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logos-section .flx a {
+  width: 25%;
+  height: 119px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #efefef;
 }/*# sourceMappingURL=app.css.map */
