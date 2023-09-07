@@ -253,4 +253,91 @@ body {
   justify-content: center;
   align-items: center;
   border: 0.5px solid #efefef;
+}
+
+.footer .footer-categories {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #efefef;
+}
+.footer .footer-categories .flx {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+.footer .footer-categories .flx .block {
+  width: 25%;
+}
+.footer .footer-categories .flx .block h3 {
+  font-weight: 500;
+  line-height: 22px;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+}
+.footer .footer-categories .flx .block ul li a {
+  font-size: 0.75rem;
+  color: #828282;
+  line-height: 28px;
+  text-decoration: none;
+}
+.footer .footer-middle {
+  padding-top: 37px;
+  padding-bottom: 38px;
+}
+.footer .footer-middle .flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footer-middle .flx .block-1 {
+  display: flex;
+  gap: 20px;
+}
+.footer .footer-middle .flx .block-1 a {
+  text-decoration: none;
+}
+.footer .footer-middle .flx .block-1 a img {
+  display: block;
+}
+.footer .footer-middle .flx .block-2 {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-middle .flx .block-2 a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  margin-right: 40px;
+}
+.footer .footer-middle .flx .block-2 button {
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  border-radius: 40px;
+  font-size: 0.875rem;
+  color: #000;
+  border: 2px solid #f13c6e;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.footer .footer-copyright {
+  background-color: #efefef;
+  padding: 25px 0;
+}
+.footer .footer-copyright .flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #828282;
+  font-size: 0.75rem;
+}
+.footer .footer-copyright .flx a {
+  color: #828282;
+  text-decoration: none;
 }/*# sourceMappingURL=app.css.map */

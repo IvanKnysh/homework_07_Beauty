@@ -1,0 +1,85 @@
+.footer {
+	.footer-categories {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		border-bottom: 1px solid $primary;
+		.flx {
+			display: flex;
+			align-items: flex-start;
+			gap: 30px;
+			.block {
+				width: calc((100% / 4));
+				h3 {
+					font-weight: 500;
+					line-height: 22px;
+					border-bottom: 1px solid $primary;
+					padding-bottom: 30px;
+					margin-bottom: 25px;
+				}
+				ul {
+					li {
+						a {
+							font-size: 0.75rem;
+							color: $darklight-text-color;
+							line-height: 28px;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+	.footer-middle {
+		padding-top: 37px;
+		padding-bottom: 38px;
+		.flx {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.block-1 {
+				display: flex;
+				gap: 20px;
+				a {
+					text-decoration: none;
+					img {
+						display: block;
+					}
+				}
+			}
+			.block-2 {
+				display: flex;
+				align-items: center;
+				a {
+					display: block;
+					text-decoration: none;
+					color: $dark;
+					margin-right: 40px;
+				}
+				button {
+					@include call-back($main, $dark);
+
+					padding: 0;
+					margin: 0;
+					background-color: transparent;
+					outline: none;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.footer-copyright {
+		background-color: $primary;
+		padding: 25px 0;
+		.flx {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			color: $darklight-text-color;
+			font-size: 0.75rem;
+			a {
+				color: $darklight-text-color;
+				text-decoration: none;
+			}
+		}
+	}
+}
