@@ -256,6 +256,9 @@ body {
   align-items: center;
   border: 0.5px solid #efefef;
 }
+.logos-section .flx a img {
+  max-width: 100%;
+}
 
 .footer .footer-categories {
   padding-top: 60px;
