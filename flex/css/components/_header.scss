@@ -33,9 +33,15 @@
 					&.phone-number {
 						margin-right: 40px;
 					}
-					&.call-back {
-						@include call-back($main, $dark);
-					}
+				}
+				button {
+					@include call-back($main, $dark);
+
+					padding: 0;
+					margin: 0;
+					background-color: transparent;
+					outline: none;
+					cursor: pointer;
 				}
 			}
 		}

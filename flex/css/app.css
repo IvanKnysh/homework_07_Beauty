@@ -61,7 +61,7 @@ body {
 .header .header-middle-content .flx .info a.phone-number {
   margin-right: 40px;
 }
-.header .header-middle-content .flx .info a.call-back {
+.header .header-middle-content .flx .info button {
   width: 170px;
   height: 40px;
   text-align: center;
@@ -71,6 +71,11 @@ body {
   font-size: 0.875rem;
   color: #000;
   border: 2px solid #f13c6e;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
 }
 .header .header-bottom-menu {
   padding: 30px 0;
