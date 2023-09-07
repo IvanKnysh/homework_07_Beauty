@@ -148,6 +148,7 @@ body {
 .cards-section .flx .card img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 .cards-section .flx .card h5 {
   font-size: 0.875rem;
@@ -175,6 +176,7 @@ body {
   color: #fff;
   background-color: #f13c6e;
   letter-spacing: 0.7px;
+  max-width: 100%;
 }
 
 .info-section {
