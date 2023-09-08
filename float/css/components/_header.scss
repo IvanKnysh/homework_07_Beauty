@@ -1,0 +1,75 @@
+.header {
+	.header-top-menu {
+		background-color: $primary;
+		padding: 16px 0;
+		ul {
+			width: fit-content;
+			margin: 0 auto;
+			li {
+				float: left;
+				margin-right: 30px;
+				a {
+					color: $dark-text-color;
+					text-decoration: none;
+				}
+				&:nth-last-child(1) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	.header-middle-content {
+		border-bottom: 1px solid $primary;
+		line-height: 120px;
+		.flx {
+			.logo {
+				float: left;
+				img {
+					vertical-align: middle;
+				}
+			}
+			.info {
+				float: right;
+				a {
+					float: left;
+					display: block;
+					text-decoration: none;
+					color: $dark;
+					&.phone-number {
+						margin-right: 40px;
+					}
+				}
+				button {
+					@include call-back($main, $dark);
+
+					padding: 0;
+					margin: 0;
+					background-color: transparent;
+					outline: none;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+	.header-bottom-menu {
+		padding: 30px 0;
+		ul {
+			width: fit-content;
+			margin: 0 auto;
+			li {
+				float: left;
+				margin-right: 40px;
+				a {
+					display: block;
+					text-decoration: none;
+					color: $dark;
+				}
+				&:nth-last-child(1) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

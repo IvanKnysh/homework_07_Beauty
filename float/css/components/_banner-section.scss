@@ -1,0 +1,24 @@
+.banner-section {
+	background: url("../images/banner-section-bg.jpg") center/cover;
+	.flx {
+		display: table-cell;
+		vertical-align: middle;
+		height: 604px;
+		color: $light;
+		h1 {
+			font-weight: 700;
+			font-size: 3rem;
+			margin-bottom: 50px;
+		}
+		p {
+			font-size: 0.875rem;
+			line-height: 20px;
+			margin-bottom: 30px;
+		}
+		a {
+			@include call-back($light, $light);
+			display: block;
+			letter-spacing: 0.7px;
+		}
+	}
+}

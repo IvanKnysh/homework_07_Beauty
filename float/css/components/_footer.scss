@@ -1,0 +1,91 @@
+.footer {
+	.footer-categories {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		border-bottom: 1px solid $primary;
+		.flx {
+			.block {
+				float: left;
+				width: calc((100% / 4) - 22.5px);
+				margin-right: 30px;
+				h3 {
+					font-weight: 500;
+					line-height: 22px;
+					border-bottom: 1px solid $primary;
+					padding-bottom: 30px;
+					margin-bottom: 25px;
+				}
+				ul {
+					li {
+						a {
+							font-size: 0.75rem;
+							color: $darklight-text-color;
+							line-height: 28px;
+							text-decoration: none;
+						}
+					}
+				}
+				&:nth-last-child(1) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.footer-middle {
+		padding: 38px 0;
+		.flx {
+			.block-1 {
+				float: left;
+				a {
+					float: left;
+					display: block;
+					text-decoration: none;
+					margin-right: 20px;
+					img {
+						display: block;
+					}
+					&:nth-last-child(1) {
+						margin-right: 0;
+					}
+				}
+			}
+			.block-2 {
+				float: right;
+				line-height: 44px;
+				a {
+					float: left;
+					display: block;
+					text-decoration: none;
+					color: $dark;
+					margin-right: 40px;
+				}
+				button {
+					@include call-back($main, $dark);
+
+					padding: 0;
+					margin: 0;
+					background-color: transparent;
+					outline: none;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.footer-copyright {
+		background-color: $primary;
+		padding: 25px 0;
+		.flx {
+			color: $darklight-text-color;
+			font-size: 0.75rem;
+			p {
+				float: left;
+			}
+			a {
+				float: right;
+				display: block;
+				color: $darklight-text-color;
+				text-decoration: none;
+			}
+		}
+	}
+}

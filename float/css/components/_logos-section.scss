@@ -1,0 +1,19 @@
+.logos-section {
+	background-color: $primary;
+	.flx {
+		a {
+			float: left;
+			display: block;
+			width: calc(100% / 4);
+			height: 119px;
+			line-height: 119px;
+			background-color: $light;
+			border: 0.5px solid $primary;
+			text-align: center;
+			img {
+				max-width: 100%;
+				vertical-align: middle;
+			}
+		}
+	}
+}
