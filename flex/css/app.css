@@ -49,6 +49,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.header .header-middle-content .flx .logo img {
+  display: block;
+}
 .header .header-middle-content .flx .info {
   display: flex;
   align-items: center;
