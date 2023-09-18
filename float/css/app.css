@@ -140,6 +140,11 @@ body {
   font-size: 0.875rem;
   color: #fff;
   border: 2px solid #fff;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
   display: block;
   letter-spacing: 0.7px;
 }
@@ -253,6 +258,11 @@ body {
   font-size: 0.875rem;
   color: #fff;
   border: 2px solid #fff;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
   display: block;
   height: 35px;
   line-height: 35px;
